@@ -31,8 +31,26 @@
         <dependency>
             <scope>compile</scope>
             <groupId>com.github.oshi</groupId>
-<artifactId>oshi-core</artifactId>
-<version>5.2.5</version>
-</dependency>
-</dependencies>
+            <artifactId>oshi-core</artifactId>
+            <version>5.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jfinal</groupId>
+            <artifactId>jfinal-undertow</artifactId>
+            <version>2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jfinal</groupId>
+            <artifactId>jfinal</artifactId>
+            <version>4.9.01</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.undertow</groupId>
+            <artifactId>undertow-websockets-jsr</artifactId>
+            <version>2.0.30.Final</version>
+        </dependency>
+    </dependencies>
 </project>
